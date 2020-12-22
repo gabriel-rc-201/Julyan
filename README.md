@@ -7,8 +7,14 @@ Projeto do processo seletivo da Loading Jr
 
 - [ ] Área de listagem dos procedimentos  
 - [ ] Área interna para descrição do procedimento  
+  - Funcionalidades
+  - Vantagens
+  - Riscos
+  - Preços
 - [ ] Área de cadastro do cliente  
-  (nome, e-mail, telefone de contato)
+  - nome  
+  - e-mail  
+  - telefone de contato
 - [ ] Área de checkout para verificar o pedido antes de enviar para o Julyan  
 
 ## Área de acesso para o Julyan
