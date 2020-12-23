@@ -1,5 +1,8 @@
 # Julyan
 Projeto do processo seletivo da Loading Jr
+## Fluxo da Aplicação
+
+![fluxo da aplicação](./Julyan@2x.png "fluxo da aplicação")
 
 ## To Do List
 
