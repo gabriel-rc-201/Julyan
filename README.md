@@ -14,6 +14,9 @@ Projeto do processo seletivo da Loading Jr
         - verificar pedido antes de enviar para o Julyan 
       - visualizar os detalhes dos procedimentos
   - Cadastro do Usuário
+    - nome  
+    - e-mail  
+    - telefone de contato
 
 ### Áreas de acesso do cliente
 
