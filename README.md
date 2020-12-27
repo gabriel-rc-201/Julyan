@@ -6,21 +6,6 @@ Projeto do processo seletivo da Loading Jr
 
 ## To Do List
 
-### Telas (Fluxo da Aplicação)
-- Login Usuário
-  - Julyan
-    - Cadastrar Procedimentos
-    - Visualizar Solicitações
-  - Cliente
-    - Visualizar procedimentos
-      - escolher quais procedimentos fazer
-        - verificar pedido antes de enviar para o Julyan 
-      - visualizar os detalhes dos procedimentos
-  - Cadastro do Usuário
-    - nome  
-    - e-mail  
-    - telefone de contato
-
 ### Áreas de acesso do cliente
 
 - [ ] Área de listagem dos procedimentos  
