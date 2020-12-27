@@ -4,6 +4,10 @@ Projeto do processo seletivo da Loading Jr
 
 ![fluxo da aplicação](./Julyan@2x.png "fluxo da aplicação")
 
+## Banco de Dados (MER)
+
+![modelo entidade relacionamento](./Julyan_MER_BD@2x.png "modelo entidade relacionamento")
+
 ## To Do List
 
 ### Áreas de acesso do cliente
