@@ -1,0 +1,33 @@
+body {
+  position: relative;
+
+  margin: 0;
+  background: no-repeat linear-gradient(180deg, #2d691d 100%, #ffffff 0%, #1C1C1C 100%);  
+  height: max-content;
+
+  color: #00FF00;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#header{
+  position: relative;
+  margin: 0;
+  height: 90px;
+  background-color: rgba( 0, 0, 0, 0.5);
+  text-align: right;
+}
+
+#header #logo{
+  position: relative;
+  display: block;
+  margin-right: auto;
+  
+  bottom: 16px;
+  left: 10px;
+}
+
+#header .user{
+  position: relative;
+  top: 30px;
+  right: 10px;
+}
