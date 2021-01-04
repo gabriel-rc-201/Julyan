@@ -2,7 +2,7 @@ body {
   position: relative;
 
   margin: 0;
-  background: no-repeat linear-gradient(180deg, #2d691d 100%, #ffffff 0%, #1C1C1C 100%);  
+  background: linear-gradient(180deg, #162f10 100%, #ffffff 100%, #1C1C1C 100%);  
   height: max-content;
 
   color: #00FF00;
@@ -47,13 +47,13 @@ body {
 }
 
 #chavrao #medicanicoImg {
-  margin-left: 55%;
+  margin-left: 52%;
   position: absolute;
   width: 650px;
   height: 300px;
 }
 
-#melhora{
+#chavrao #melhora{
   color: #7000FF;
 }
 
@@ -64,4 +64,22 @@ hr{
 
 h1{
   text-align: center;
+}
+
+div .procedimentos{
+  margin: 1%;
+  padding: 2%;
+
+  height: 12px;
+
+  overflow: hidden;
+
+  background-color: #595959;
+  color: #FCFF62;
+
+  transition: 0.7s;
+}
+
+div .procedimentos:hover{
+  height: auto;
 }
