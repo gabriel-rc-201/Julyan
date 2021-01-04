@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+}
+
+div .procedimentos{
+  margin: 1%;
+  padding: 2%;
+
+  height: 12px;
+
+  overflow: hidden;
+
+  background-color: #595959;
+  color: #FCFF62;
+
+  transition: 0.7s;
+}
+
+div .procedimentos:hover{
+  height: auto;
+}

@@ -1,0 +1,29 @@
+#chavrao{
+  font-size: 35px;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: auto auto;
+
+  margin-bottom: 95px;
+}
+
+#chavrao #descricao{
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+#chavrao #medicanicoImg {
+  margin-left: 52%;
+  position: absolute;
+  width: 650px;
+  height: 300px;
+}
+
+#chavrao #melhora{
+  color: #7000FF;
+}
+
+hr{
+  color: #7000FF;
+  width: 99%;
+}
