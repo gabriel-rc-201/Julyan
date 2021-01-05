@@ -1,16 +1,11 @@
 body{
-  position: relative;
-
   margin: 0;
   background: no-repeat;
-
-  background-color: #878887;
-  /* background-color: linear-gradient(180deg, #162f10 100%, #ffffff 100%, #1C1C1C 100%);   */
-
-  height: max-content;
-
+  
   color: #00FF00;
   font-family: 'JetBrains Mono', monospace;
-
+  
   background-image: url("../img/LogoBackground.png"); 
+  background-color: #0f0f0f;
+  background-position: 50% -3%;
 }
