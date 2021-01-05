@@ -1,0 +1,37 @@
+form{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.input{
+  height: 30px;
+  width: 275px;
+  border: none;
+  border-radius: 6px;
+  
+  background: rgba(255, 255, 255, 0.75);
+
+  color: #6B9668;
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+.submit{
+  height: 35px;
+  width: 135px;
+
+  border-radius: 20px;
+  border: 1px solid #7445B0;
+
+  background-color: #7445B0;
+
+  color: #000000;
+  font-family: 'JetBrains Mono', monospace;
+
+  transition: 0.5ms;
+}
+
+.submit:hover{
+  border: 1px solid #0000FF;
+  color: #0000FF;
+}

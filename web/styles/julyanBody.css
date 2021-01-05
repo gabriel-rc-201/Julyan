@@ -1,0 +1,11 @@
+body {
+  position: relative;
+
+  margin: 0;
+  background: #1c1c1c;
+  height: max-content;
+
+  color: #00FF00;
+  font-family: 'JetBrains Mono', monospace;
+}
+

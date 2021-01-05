@@ -29,3 +29,35 @@
 #main .solicitacoes:hover{
   height: auto;
 }
+
+button{
+  margin-top: 5px;
+  border-radius: 10px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.descartar{
+  border: 1px solid #FF0000;
+  background-color: rgba(255, 255, 255, 0);
+  color: #FF0000;
+}
+
+.descartar:hover{
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+.completo{
+  border: 1px solid #00FF00;
+  background-color: rgba(255, 255, 255, 0);
+  color: #00FF00;
+
+  position: relative;
+  bottom: 9px;
+  padding: 10px;
+}
+
+.completo:hover{
+  background-color: #00FF00;
+  color: #000000;
+}
