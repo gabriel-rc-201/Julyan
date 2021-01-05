@@ -9,3 +9,33 @@ body{
   background-color: #0f0f0f;
   background-position: 50% -3%;
 }
+
+form{
+  text-align: center;
+  margin-top: 11%;
+}
+
+.input{
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  
+  background: rgba(255, 255, 255, 0.75);
+
+  color: #6B9668;
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+.submit{
+  height: 35px;
+  width: 135px;
+
+  border-radius: 9px;
+  border: none;
+
+  background-color: #313B32;
+
+  color: #b8ffb3;
+  font-family: 'JetBrains Mono', monospace;
+}
