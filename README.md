@@ -12,13 +12,13 @@ Projeto do processo seletivo da Loading Jr
 
 ### Áreas de acesso do cliente
 
-- [ ] Área de listagem dos procedimentos  
-- [ ] Área interna para descrição do procedimento  
+- [x] Área de listagem dos procedimentos  
+- [x] Área interna para descrição do procedimento  
   - Funcionalidades
   - Vantagens
   - Riscos
   - Preços
-- [ ] Área de cadastro do cliente  
+- [x] Área de cadastro do cliente  
   - nome  
   - e-mail  
   - telefone de contato
