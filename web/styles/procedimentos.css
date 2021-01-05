@@ -19,3 +19,28 @@ div .procedimentos{
 div .procedimentos:hover{
   height: auto;
 }
+
+form button{
+  border: none;
+  
+  padding: 7px 20px;
+
+  background-color: #7000FF;
+  border-radius: 20px;
+
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  color: #000000;
+  
+  position: relative;
+  left: 88%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  transition: 0.5ms;
+}
+
+form button:hover{
+  border: 1px solid #00FF00;
+  color: #00FF00;
+}

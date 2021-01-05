@@ -28,6 +28,11 @@ form{
   font-family: 'JetBrains Mono', monospace;
 }
 
+.submit:hover{
+  border: 1px solid #00FF00;
+  color: #00FF00;
+}
+
 a {
   padding: 7px;
   border-radius: 9px;
@@ -36,4 +41,11 @@ a {
   color: #b8ffb3;
 
   background-color: #313B32;
+
+  transition: 0.5ms;
+}
+
+a:hover{
+  border: 1px solid #0077ff;
+  color: #0077FF;
 }
