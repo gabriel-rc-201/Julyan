@@ -1,0 +1,31 @@
+#sidebar{
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+#main{
+  text-align: center;
+}
+
+#main .solicitacoes{
+
+  height: 20px;
+  width: 300px;
+  border: solid;
+  overflow: hidden;
+  transition: 0.7ms;
+  margin-bottom: 35px;
+  margin-left: 39%;
+}
+
+#main .solicitacoes:hover{
+  height: auto;
+}
