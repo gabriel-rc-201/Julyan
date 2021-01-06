@@ -41,45 +41,15 @@
 
     <h1>PROCEDIMENTOS</h1>
 
-    <div class="procedimentos">
-      Filtros nasais <br>
-      <p>Descrição: Esses filtros aumentam a resistência contra soníferos venenosos ou outras toxinas respiráveis </p>
-      <p>Vantagens: Mais resistência contra soníferos venenosos ou outras toxinas respiráveis ​​em +4 </p>
-      <p>Risco: Médio</p>
-      <p>Preço: $1700,00 </p>
-    </div>
-
-    <div class="procedimentos">
-      Implante de Brânqueas <br>
-      <p>Descrição: Esse implante permite que o usuário respire água relativamente limpa (evita o veneno que deve ser feito se a fonte de água estiver poluída ou contiver produtos químicos tóxicos) por até 4 horas </p>
-      <p>Vantagens: Pode respirar debaixo d'água por um certo periodo de tempo </p>
-      <p>Risco: Alto </p>
-      <p>Preço: $5500,00 </p>
-    </div>
-
-    <div class="procedimentos">
-      Suprimento de ar independente <br>
-      <p>Descrição: Um pequeno órgão artificial preenchido com uma espuma esponjosa fixadora de oxigênio implantada na parte inferior dos pulmões permite que um personagem inativo prenda a respiração por até 25 minutos ou um personagem ativo por até 10 minutos. </p>
-      <p>Vantagens: Recupera o fôlego </p>
-      <p>Risco: Baixo </p>
-      <p>Preço: $1000,00 </p>
-    </div>
-
-    <div class="procedimentos">
-      Armadura subdérmicas <br>
-      <p>Descrição: Esta é uma armadura de malha / plástico balística inserida sob a pele. Para detectar a armadura subdérmica é necessário um teste DIFÍCIL de Consciência. A armadura subdérmica cobre apenas o torso. </p>
-      <p>Vantagens: Aumenta a resistência física </p>
-      <p>Risco: Muito Alto </p>
-      <p>Preço: $8500,00 </p>
-    </div>
-
-    <div class="procedimentos">
-      Implante de sonar <br>
-      <p>Descrição: Unidade de sonar de alcance de 50 m implantada no crânio </p>
-      <p>Vantagens: Adquire a habilidade de detecção a partir de ondas sonoras </p>
-      <p>Risco: Médio </p>
-      <p>Preço: $2300,00 </p>
-    </div>
+    {{#each procedimentos}}
+      <div class="procedimentos">
+        {{this.nome}} <br>
+        <p>Descrição: {{this.descricao}}</p>
+        <p>Vantagens: {{this.vantagens}}</p>
+        <p>Risco: {{this.risco}} </p>
+        <p>Preço: ${{this.preco}} </p>
+      </div>
+    {{/each}}
 
   </div>
 

@@ -13,17 +13,26 @@
 
 #main{
   text-align: center;
+  height: 100%;
+  position: fixed;
+}
+
+#main #soli{
+  margin-left: 175%;
+}
+
+#main #cadastrar{
+  margin-left: 125%;
 }
 
 #main .solicitacoes{
-
   height: 20px;
   width: 300px;
   border: solid;
   overflow: hidden;
   transition: 0.7ms;
   margin-bottom: 35px;
-  margin-left: 39%;
+  margin-left: 164%;
 }
 
 #main .solicitacoes:hover{

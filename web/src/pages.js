@@ -1,7 +1,10 @@
+const procedimentos = require('./database/fakedataproc')
+const solicitacoes = require('./database/fakedatasolic')
+
 module.exports = {
 
   index(req, res){
-    return res.render('index')
+    return res.render('index', { procedimentos })
   },
 
   julyanCadastros(req, res){
@@ -9,11 +12,11 @@ module.exports = {
   },
 
   julyanSolicitacoes(req, res){
-    return res.render('julyanSolicitacoes')
+    return res.render('julyanSolicitacoes', { solicitacoes })
   },
 
   logedScreen(req, res){
-    return res.render('logedScreen')
+    return res.render('logedScreen', { procedimentos })
   },
 
   singIn(req, res){
