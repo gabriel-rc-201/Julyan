@@ -22,9 +22,9 @@ Projeto do processo seletivo da Loading Jr
   - nome  
   - e-mail  
   - telefone de contato
-- [ ] Área de checkout para verificar o pedido antes de enviar para o Julyan  
+- [x] Área de checkout para verificar o pedido antes de enviar para o Julyan  
 
 ### Área de acesso para o Julyan
 
-- [ ] Área para cadastrar procedimentos  
-- [ ] Área para visualizar solicitações  
+- [x] Área para cadastrar procedimentos  
+- [x] Área para visualizar solicitações  
