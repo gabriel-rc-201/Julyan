@@ -6,6 +6,8 @@ const pages = require('./pages')
 const server = express();
 
 server
+  // utilizar body do req
+  .use(express.urlencoded({ extended: true }))
   // utilizando os arquivos estáticos
   .use(express.static('public'))
 
@@ -17,9 +19,14 @@ server
   .get('/', pages.index)
   .get('/julyanCadastros', pages.julyanCadastros)
   .get('/julyanSolicitacoes', pages.julyanSolicitacoes)
-  .get('/logedScreen', pages.logedScreen)
+  // .get('/logedScreen', pages.logedScreen)
   .get('/singIn', pages.singIn)
   .get('/singUp', pages.singUp)
+  .post('/cadastrarProcedimento', pages.cadastrarProcedimento)
+  .post('/cadastrarCliente', pages.cadastrarCliente)
+  .post('/login', pages.login)
+  .post('/solicitacao', pages.solicitacao)
+  .post('/deleteSolicitacao', pages.deleteSolicitacao)
 
 // ligar o servidor
 server.listen(5500);

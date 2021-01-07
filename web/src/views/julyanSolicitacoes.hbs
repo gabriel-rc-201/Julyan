@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 
+
   <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
   <title>Julyan</title>
 </head>
@@ -27,16 +28,18 @@
     
     {{#each solicitacoes}}
       <div class="solicitacoes">
-        {{this.nome_client}} <br> <br>
-        {{this.numero_client}} <br> <br>
+        {{this.nome}} <br> <br>
+        {{this.numero}} <br> <br>
         {{this.email}} <br> <br> <br>
 
         Procedimentos desejados: <br>
         
-        {{this.nome_proc}}
-
-        <button class="completo">Done</button>
-        <button class="descartar">Descartar <br> Solicitação</button>
+        {{this.procedimentos}}
+        <form action="/deleteSolicitacao" method="post">
+          <input type="number" name="id" value="{{this.id}}" style="display: none;">
+          <button type="submit" onclick="deleteSolicitacao({{this.id}})" class="completo">Done</button>
+          <button type="submit" onclick="deleteSolicitacao({{this.id}})" class="descartar">Descartar <br> Solicitação</button>
+        </form>
       </div>
     {{/each}}
 
