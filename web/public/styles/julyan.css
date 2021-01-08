@@ -30,7 +30,7 @@
   width: 300px;
   border: solid;
   overflow: hidden;
-  transition: 0.7ms;
+  transition: all 0.7ms;
   margin-bottom: 35px;
   margin-left: 164%;
 }

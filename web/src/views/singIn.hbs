@@ -21,4 +21,15 @@
     <a href="./singUp">Criar Conta</a>
   </form>
 </body>
+
+<script>
+  if({{ userNaoExiste }}){
+    alert(`Usuário não encontrado`)
+  } 
+  
+  if ({{ senhaIncorreta }}){
+    alert(`Senha Incorreta tente novamente`)
+  }
+</script>
+
 </html>

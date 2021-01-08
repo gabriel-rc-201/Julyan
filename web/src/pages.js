@@ -10,7 +10,7 @@ module.exports = {
     try {
       const db = await Database;
       const procedimentos = await db.all("SELECT * FROM procedimentos")
-      return res.render('index', { procedimentos })      
+      return res.render('index', { procedimentos, poupUp: false })      
     } catch (error) {
       console.log(error)
       return res.send('Erro no banco de dados')
@@ -68,7 +68,7 @@ module.exports = {
   },
 
   singIn(req, res){
-    return res.render('singIn')
+    return res.render('singIn', {userNaoExiste: false, senhaIncorreta: false})
   },
 
   async login(req, res){
@@ -77,12 +77,12 @@ module.exports = {
     try {
       const db = await Database;
       const userExist = await db.all(`SELECT * FROM clientes WHERE email = "${email}"`)
-  
-      if (!userExist){
-        return res.send('Usuario não encontrado!! =/')
+
+      if (userExist.length === 0){
+        return res.render('singIn', { userNaoExiste: true, senhaIncorreta: false })
       }
-      if (!(senha == userExist[0].senha)){
-        return res.send('Senha incorreta!!')
+      else if (!(senha == userExist[0].senha)){
+        return res.render('singIn', { senhaIncorreta: true, userNaoExiste: false})
       }
     
       const cliente = userExist[0]
@@ -109,8 +109,8 @@ module.exports = {
         procedimentos: solicitacao.procedimentos.toString()
       })      
 
-
-      return res.send('Obrigado pela confiança =D !!!')
+      const procedimentos = await db.all("SELECT * FROM procedimentos")
+      return res.render('index', { poupUp: true,  procedimentos, solicitacao})
 
     } catch (error) {
       console.log(error);

@@ -27,7 +27,7 @@ form{
   color: #b8ffb3;
   font-family: 'JetBrains Mono', monospace;
 
-  transition: 0.5ms;
+  transition: all 0.5ms;
 }
 
 .submit:hover{
